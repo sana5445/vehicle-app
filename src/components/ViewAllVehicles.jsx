@@ -5,8 +5,9 @@ const ViewAllVehicles = () => {
   return (
     <div>
         <VehicleNav/>
+         <div style={{ backgroundColor: '#e4c4a4ff', minHeight: '100vh', paddingBottom: '30px' }}>
       <div className="container mt-4">
-        <h2 className="text-center mb-4" style={{ color: "brown" }}>ALL VEHICLES</h2>
+        <h2 className="text-center mb-4" style={{ color: "green" }}>ALL VEHICLES</h2>
         <div className="row">
           <div className="col-12">
             <table className="table table-bordered table-striped">
@@ -88,6 +89,7 @@ const ViewAllVehicles = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
